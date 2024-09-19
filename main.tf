@@ -4,7 +4,7 @@ terraform {
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
     resource_group_name  = "tfstate"
-    use_oidc = true
+    use_oidc             = true
   }
 
 
